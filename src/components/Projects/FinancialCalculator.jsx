@@ -26,16 +26,16 @@ function FinancialCalculator() {
 
       <motion.div
         className={styles.videoWrapper}
-        initial={{ opacity: 0, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1}}
         transition={{ duration: 0}}
       >
         <motion.div
           className={styles.samsungFrame}
           initial={{ y: 200, opacity: 0 }}
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.1 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0 }}
         >
           <div className={styles.camera}></div>
           <video className={styles.projectVideo} src={FC} autoPlay loop muted />
