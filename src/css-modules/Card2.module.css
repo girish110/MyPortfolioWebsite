@@ -1,0 +1,59 @@
+.skillsSection {
+    padding-left: 300px;
+    padding-right: 300px;
+    /* background: linear-gradient(145deg, #34293d75, #3E3F5B); */
+    animation: fadeInUp 1s ease-out;
+    min-height: 80vh;
+  }
+  
+  .heading {
+    font-size: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .description {
+    font-size: 23px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skillsGrid {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    color: black;
+  }
+  
+  .skillsGrid span {
+    background-image: radial-gradient(circle at 50% -20.71%, #bae0e6 0, #bbe0e9 6.25%, #bcdfeb 12.5%, #bedfed 18.75%, #c0deef 25%, #c3ddf0 31.25%, #c6dcf1 37.5%, #c9dbf2 43.75%, #cddaf2 50%, #d1d9f2 56.25%, #d5d8f1 62.5%, #d9d7f0 68.75%, #ddd6ee 75%, #e1d5ed 81.25%, #e4d4ea 87.5%, #e8d3e8 93.75%, #ebd2e5 100%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .skillsGrid span:hover {
+    transform: scale(1.3);
+    background-image: radial-gradient(circle at 50% -20.71%, #bae0e6 0, #bbe0e9 6.25%, #bcdfeb 12.5%, #bedfed 18.75%, #c0deef 25%, #c3ddf0 31.25%, #c6dcf1 37.5%, #c9dbf2 43.75%, #cddaf2 50%, #d1d9f2 56.25%, #d5d8f1 62.5%, #d9d7f0 68.75%, #ddd6ee 75%, #e1d5ed 81.25%, #e4d4ea 87.5%, #e8d3e8 93.75%, #ebd2e5 100%);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  

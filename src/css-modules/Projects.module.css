@@ -1,0 +1,23 @@
+.FC {
+  text-align: center;
+  background: linear-gradient(145deg, #34293d75, #D27685);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 150px;
+  padding-left: 150px;
+  height: 120vh;
+}
+.EMS{
+  /* padding: 2rem; */
+  text-align: center;
+  background: linear-gradient(145deg, #f1f1f1, #34293d75);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;  
+  padding-left: 50px;
+
+  height: 100vh;
+  align-content: center;
+}

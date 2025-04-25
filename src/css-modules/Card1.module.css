@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+  .container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(145deg, #34293d75, #3E3F5B); */
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content {
+  max-width: 900px;
+  animation: fadeIn 2s ease-out;
+  z-index: 1;
+}
+
+.title {
+  font-size: 70px;
+  margin-bottom: 4rem;
+  font-family: 'Rubik Iso', cursive;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.description {
+  font-size: 18px;
+  color: #dddddd;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #00c9a7;
+  color: #0f0f0f;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 13px;
+  font-size: 20px;
+  /* transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; */
+}
+.resume {
+  display: inline-block;
+  background-color: #42187c;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 13px;
+  font-size: 20px;
+  margin-left: 100px;
+  /* transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; */
+}
+.resume:hover{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease-in-out;
+}
+.cta:hover {
+  background-color: #00c4a7be;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(400px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  

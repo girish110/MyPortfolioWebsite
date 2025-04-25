@@ -1,0 +1,56 @@
+.container {
+    background-color: aliceblue;
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center the text */
+    border-top: 2px solid #ccc; /* Optional: Add a border for separation */
+    min-height: 200px;
+  
+}
+
+.footer {
+  color: black;
+}
+
+.footer p {
+    margin: 5px 0; /* Add spacing between paragraphs */
+    font-size: 14px; /* Adjust font size for better readability */
+}
+.imgLinks{
+    margin: 50px;
+}
+.imgGithub{
+    width: 50px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Add spacing between images */
+    vertical-align: middle; /* Align images with text */
+    color: black;
+}
+.imgGithub:hover{
+    transform: scale(1.5); /* Scale up the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    color: rgb(93, 9, 183);
+}
+.imgLinkedin{
+    width: 50px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Add spacing between images */
+    vertical-align: middle; /* Align images with text */
+    color: black;
+}
+.imgLinkedin:hover{
+    transform: scale(1.5); /* Scale up the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    color: rgb(24, 135, 191);
+}
+.imgInstagram{
+    width: 50px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Add spacing between images */
+    vertical-align: middle; /* Align images with text */
+    color: black;
+}
+.imgInstagram:hover{
+    transform: scale(1.5); /* Scale up the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    color: rgba(225, 15, 218, 0.839);
+}

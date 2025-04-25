@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+.quoteSection {
+    padding: 80px 30px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(-45deg, #e3ffe7, #d9e7ff);
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    /* font-style: italic; */
+    animation: quoteWave 1s ease-out;
+    color: steelblue;
+    height: 50vh;
+  }
+  
+  .quoteSection span {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .Inconsolota{
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  @keyframes quoteWave {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) rotateX(90deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotateX(0);
+    }
+  }
+  

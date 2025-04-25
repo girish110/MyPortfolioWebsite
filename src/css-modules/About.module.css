@@ -1,0 +1,109 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+
+.aboutSection {
+    padding: 200px;
+    
+    /* background-color: #1a1a1a; */
+    background-image: linear-gradient(180deg, #ffffb1 0, #ffeca7 25%, #f2d59d 50%, #dcbf93 75%, #c7ac8a 100%);
+    color: #f2f2f2;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 100vh;
+
+  }
+
+/* .GeostarFillRegular {
+  font-family: 'Geostar Fill', sans-serif;
+} */
+
+.eduFont {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 30px;
+    text-align: left;
+  }
+.me{
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUpFadeIn 1.5s ease forwards;
+  animation-delay: 2s;
+  transition:  transform 0.5s ease;;
+}
+
+  h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .text{
+    padding-right: 15%;
+  }
+
+  ::selection{
+    background-color: green;
+    color: white;
+  }
+  /* span{
+    text-decoration: underline double darkviolet;
+  } */
+  
+
+
+
+
+  .text h1, 
+.text p {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUpFadeIn 0.6s ease forwards;
+}
+
+.text h1 {
+  animation-delay: 0.5s;
+}
+
+.text p {
+  animation-delay: 1s;
+}
+
+@keyframes slideUpFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  
+
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: scale(0.5) translateY(20px);
+  animation: popIn 0.3s cubic-bezier(0.45, 0, 0.55, 1) forwards;
+}
+
+@keyframes popIn {
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.underline {
+  text-decoration: underline double;
+  text-decoration-color: #4a12b1;
+  text-decoration-thickness: 3px;
+}
