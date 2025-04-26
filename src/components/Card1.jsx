@@ -20,7 +20,7 @@ function Card1() {
           View My Work
         </Link>
         <a
-          href="/src/GIRISH_SHARMA.pdf"
+          href="/GIRISH_SHARMA.pdf"
           className={styles.resume}
           target="_blank"
           rel="noopener noreferrer"
