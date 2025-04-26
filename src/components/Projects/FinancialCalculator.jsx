@@ -38,7 +38,7 @@ function FinancialCalculator() {
           transition={{ duration: 0 }}
         >
           <div className={styles.camera}></div>
-          <video className={styles.projectVideo} src={FC} autoPlay loop muted />
+          <video className={styles.projectVideo} src={FC} autoPlay loop muted playsInline />
         </motion.div>
       </motion.div>
       </div>
