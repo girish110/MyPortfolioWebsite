@@ -41,7 +41,7 @@ function Navbar() {
           pointerEvents: opacity === 0 ? "none" : "auto",
         }}
       >
-        <Link to="/" className={styles.image}>
+        <Link to="/" className={`${styles.image} ${styles.logoLink}`}>
           <img src={girishlogo} alt="ghibli" />
           <p className="agbalumo-regular">irish</p>
         </Link>

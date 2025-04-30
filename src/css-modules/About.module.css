@@ -8,14 +8,14 @@
     padding: 200px;
     
     /* background-color: #1a1a1a; */
-    background-image: linear-gradient(180deg, #ffffb1 0, #ffeca7 25%, #f2d59d 50%, #dcbf93 75%, #c7ac8a 100%);
-    color: #f2f2f2;
+    background-image: linear-gradient(145deg, #c7ac8a, #000000);
+    /* color: #f2f2f2; */
     /* text-align: center; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
-    height: 100vh;
+    height: auto;
 
   }
 
@@ -49,6 +49,8 @@
   }
   .text{
     padding-right: 15%;
+    color: beige;
+
   }
 
   ::selection{

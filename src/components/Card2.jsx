@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Card2() {
   const { ref, inView } = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.3, // % of the component visible before animating
   });
 

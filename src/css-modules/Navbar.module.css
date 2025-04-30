@@ -1,7 +1,26 @@
 .link{
     text-decoration: none;
     color: inherit;
-}
+}.link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .image {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .logoLink {
+    pointer-events: auto; /* default interaction */
+  }
+  
+  /* Prevent hover effects for logoLink */
+  .logoLink:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+  
 .image{
     display: flex;
     text-decoration: none;

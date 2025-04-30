@@ -13,21 +13,24 @@
 
 .content {
   max-width: 900px;
-  animation: fadeIn 2s ease-out;
+  animation: fadeIn 1s ease-out;
   z-index: 1;
 }
 
 .title {
   font-size: 70px;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-family: 'Rubik Iso', cursive;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .subtitle {
-  font-size: 30px;
+  font-size: 22px;
   color: #ffffff;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .description {
@@ -36,9 +39,14 @@
   margin-bottom: 2rem;
 }
 
+.cta,
+.resume {
+  border: 2px solid transparent; /* Set initial border */
+  box-sizing: border-box; /* Ensure padding+border are inside the element size */
+}
 .cta {
   display: inline-block;
-  background-color: #00c9a7;
+  background-color: rgb(123, 202, 205);
   color: #0f0f0f;
   font-weight: 600;
   border-radius: 8px;
@@ -60,12 +68,16 @@
   /* transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; */
 }
 .resume:hover{
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  transition: 0.2s ease-in-out;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  /* transition: 0.2s ease-in-out; */
+  border: 2px solid #9a6fd6;
+
 }
 .cta:hover {
-  background-color: #00c4a7be;
+  background-color: transparent;
+  border: 2px solid rgb(123, 202, 205);
+  color: white;
 }
 
 @keyframes fadeIn {

@@ -23,7 +23,7 @@
     background-color: #4560e7;
     font-size: 20px;
     padding: 12px 25px;
-    border-radius: 30px;
+    border-radius: 8px;
     transition: background 0.3s ease;
     animation: fadeInSlideUp 1.5s ease-in-out;
   }

@@ -7,7 +7,7 @@ const animateText = (text, startIndex, underline = false) => {
   return text.split("").map((char, i) => (
     <span
       key={`${startIndex + i}`}
-      className={`${styles.letter} ${underline ? styles.underline : ""}`}
+      className={`${styles.letter}`}
       style={{ animationDelay: `${(startIndex + i) * 0.015}s` }}
     >
       {char === " " ? "\u00A0" : char}
@@ -17,18 +17,8 @@ const animateText = (text, startIndex, underline = false) => {
 
 function About() {
   const animatedContent = [
-    animateText("I am Girish Sharma, a passionate ", 0),
-    animateText("frontend web and mobile developer", 50, true),
     animateText(
-      " focused on crafting clean & user‑friendly experiences. I specialize in building responsive web applications using modern technologies like ",
-      90
-    ),
-    animateText("ReactJS", 250, true),
-    animateText(" and ", 270),
-    animateText("NodeJS", 280, true),
-    animateText(
-      ". I love creating clean animated UI, solving real-world problems, and constantly learning to grow as a developer.",
-      300
+      " I'm Girish Sharma, a frontend web and mobile developer with a strong focus on delivering elegant, responsive, and user-centric digital experiences. My expertise lies in using modern frameworks like ReactJS to build high-quality applications that not only look good but function seamlessly across devices. I'm deeply interested in clean UI/UX design, performance optimization, and creating products that solve real-world problems. I'm a lifelong learner, always eager to explore new tools and technologies to push the boundaries of what I can build. I believe in the power of collaboration and am always excited to work with teams that share a passion for innovation and excellence. Let's connect and create something amazing together!",0
     ),
   ].flat(); // Flatten the array to avoid nested arrays
 

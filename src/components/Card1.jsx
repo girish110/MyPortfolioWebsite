@@ -1,7 +1,8 @@
 import React from "react";
+import "../App.css";
 import styles from "../css-modules/Card1.module.css";
 import { Link } from "react-router";
-import "../App.css";
+
 
 // import FloatingObjects from "./FloatingObjects";
 
@@ -25,7 +26,7 @@ function Card1() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          View CV
+          View Resume
         </a>
       </div>
     </div>
